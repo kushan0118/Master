@@ -1,0 +1,1 @@
+java -cp bin;Lib/*;Lib/POI/* org.testng.TestNG testng1.xml
