@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="FirstDay.TestNGListener"/>
+  </listeners>
+  <test name="Testthcg(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="THCG.VerifyNewSiteSetup">
+        <methods>
+          <include name="gethome"/>
+          <include name="VerifyPageSource"/>
+          <include name="ApplicationQuit"/>
+          <include name="setbrowser"/>
+        </methods>
+      </class> <!-- THCG.VerifyNewSiteSetup -->
+    </classes>
+  </test> <!-- Testthcg(failed) -->
+</suite> <!-- Failed suite [Suite] -->
