@@ -43,6 +43,7 @@ public class MasterClass {
 	public void FirstValidate()
 	{
 		defobj.FirstValidation(RID.GetCellValue(0, 2, 1));  //Crossing primary validation
+		Reporter.log("Primary Validation Crossed", true);
 		//assertion.assertAll();
 	}
 	
